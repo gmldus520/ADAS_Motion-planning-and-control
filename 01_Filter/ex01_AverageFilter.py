@@ -16,7 +16,7 @@ class AverageFilter:
         return np.mean(self.buffer)
     
 if __name__ == "__main__":
-    signal = pd.read_csv("D:/IVS_Project/01_Motion_planning/99_Release/01_filter/Data/example_Filter_1.csv")
+    signal = pd.read_csv("D:/Workspace/ADAS_motion_planning_and_control/01_filter/Data/example_Filter_1.csv")
     #signal = pd.read_csv("01_filter/Data/example_Filter_2.csv")
 
     signal["y_estimate"] = 0.0

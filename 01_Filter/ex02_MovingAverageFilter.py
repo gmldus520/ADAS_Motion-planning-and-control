@@ -17,7 +17,7 @@ class MovingAverageFilter:
     
 if __name__ == "__main__":
     # CSV 파일 경로를 문자열로 정확히 지정 (백슬래시는 두 번 \\ 또는 r'문자열')
-    signal = pd.read_csv(r"D:\Workspace\Klemove\99_Release\01_Filter\Data\example_Filter_2.csv")
+    signal = pd.read_csv("D:/Workspace/ADAS_motion_planning_and_control\01_Filter\Data\example_Filter_2.csv")
 
     # y_estimate 컬럼 초기화
     signal["y_estimate"] = 0.0
